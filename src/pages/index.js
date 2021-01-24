@@ -1,9 +1,9 @@
 import React from "react"
 import { Link } from "gatsby"
 
-import Layout from "../components/layout"
-import Image from "../components/image"
-import SEO from "../components/seo"
+import Layout from "../components/layout/layout"
+import Image from "../components/layout/image"
+import SEO from "../components/layout/seo"
 
 const IndexPage = () => (
   <Layout>
@@ -15,7 +15,8 @@ const IndexPage = () => (
       <Image />
     </div>
     <Link to="/page-2/">Go to page 2</Link> <br />
-    <Link to="/using-typescript/">Go to "Using TypeScript"</Link>
+    <Link to="/llmdx/examples/cat-dog/">simple MDX demo: Cat/Dog</Link>
+    <Link to="/resources/tools/gatsby/mk-gatsby-steps/04-generating-pages-from-content/">Sample md log of Gatsby dev</Link>
   </Layout>
 )
 
