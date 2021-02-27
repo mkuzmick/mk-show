@@ -8,6 +8,7 @@
     "@fontsource/crimson-pro": "^4.1.0",
     "@fontsource/ibm-plex-mono": "^4.1.0",
     "@fontsource/lato": "^4.1.0",
+    "@fontsource/libre-baskerville": "^4.2.0",
     "@mdx-js/mdx": "^1.6.22",
     "@mdx-js/react": "^1.6.22",
     "@theme-ui/presets": "^0.3.5",
